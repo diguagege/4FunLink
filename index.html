@@ -202,10 +202,10 @@
 
         // params
         var params = parseParams(paramsInput.value);
-        var packageName = "";
+        var packageName = null;
         if (setPackage.style.visibility == 'visible') {
             if (package.value) {
-                packageName = "&setPackage=" + package.value;
+                packageName = "setPackage=" + package.value;
             }
         }
         if (params) {
