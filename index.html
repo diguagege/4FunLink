@@ -209,7 +209,9 @@
             }
         }
         if (params) {
-            params += ("&" + packageName);
+            if (packageName != "") {
+                params += ("&" + packageName);
+            }
         } else {
             params = packageName;
         }
