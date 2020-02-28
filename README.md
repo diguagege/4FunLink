@@ -1,2 +1,2 @@
-# calLink
-生成Flyme日历外链的工具
+# 4funLink
+生成4fun外链的工具
